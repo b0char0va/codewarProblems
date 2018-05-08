@@ -39,5 +39,9 @@
 8) Write a function dirReduc which will take an array of strings and returns an array of strings with the needless directions removed (W<->E or S<->N side by side).
    # Example 1: 
    dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]) => ["WEST"]
+  
    #Example 2: 
    dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => []
+   <br/>
+9) Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. For eg: "https://www.cnet.com" == "cnet" <br/>
+10) Check if brackets are valid, given string will be non-empty and can include "()" "{}" "[]" brackets.
